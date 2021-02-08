@@ -1,0 +1,763 @@
+
+  Memory set to   1.863 GiB by Python driver.
+SCF energy: -150.69241330654566
+
+Nuclear repulsion energy: 38.253968531037714
+
+I am computing liniar response function
+<class 'psi4.core.RHF'>
+Checking dimensions of orbitals: no_occ: 9	 no_fz: 0	 no_active: 9	 no_vir: 13	 total: 22
+MO basis F_occ:
+[[-20.635964589769  -0.               0.              -0.              -0.              -0.              -0.              -0.               0.            ]
+ [ -0.             -20.635673530916  -0.               0.               0.               0.              -0.              -0.              -0.            ]
+ [  0.              -0.              -1.53804646989   -0.               0.000000000001  -0.              -0.              -0.               0.            ]
+ [ -0.               0.              -0.              -1.228672377169   0.               0.              -0.               0.              -0.            ]
+ [ -0.               0.               0.000000000001   0.              -0.779451571779  -0.               0.000000000001  -0.              -0.000000000001]
+ [ -0.               0.              -0.               0.              -0.              -0.678724333265  -0.              -0.              -0.            ]
+ [ -0.              -0.              -0.              -0.               0.000000000001  -0.              -0.610902592022  -0.              -0.            ]
+ [ -0.              -0.              -0.               0.              -0.              -0.              -0.              -0.543434616379   0.            ]
+ [  0.              -0.               0.              -0.              -0.000000000001  -0.              -0.               0.              -0.472722341761]]
+
+MP2 energy(without truncation): -0.2483877041645233
+MP2 energy here: -0.2483877041645233
+Iteration		 Correlation energy	Difference	RMS
+MP2			 -0.2483877041645233
+CC Iteration:   0	 -0.248281943401	0.000105760764	0.058451946514	DIIS Size: 0
+CC Iteration:   1	 -0.254992325619	0.006710382218	0.021026560954	DIIS Size: 1
+CC Iteration:   2	 -0.256832571393	0.001840245774	0.007580966538	DIIS Size: 2
+CC Iteration:   3	 -0.257794286173	0.000961714781	0.002206605761	DIIS Size: 3
+CC Iteration:   4	 -0.257869243003	0.000074956830	0.000754322609	DIIS Size: 4
+CC Iteration:   5	 -0.257878906873	0.000009663870	0.000256178876	DIIS Size: 5
+CC Iteration:   6	 -0.257875050694	0.000003856179	0.000072090796	DIIS Size: 6
+CC Iteration:   7	 -0.257874378068	0.000000672626	0.000025612621	DIIS Size: 7
+CC Iteration:   8	 -0.257874658333	0.000000280265	0.000009386114	DIIS Size: 7
+CC Iteration:   9	 -0.257874541148	0.000000117185	0.000003683808	DIIS Size: 7
+CC Iteration:  10	 -0.257874530673	0.000000010475	0.000001280340	DIIS Size: 7
+CC Iteration:  11	 -0.257874544072	0.000000013400	0.000000446172	DIIS Size: 7
+CC Iteration:  12	 -0.257874555513	0.000000011440	0.000000130687	DIIS Size: 7
+CC Iteration:  13	 -0.257874556969	0.000000001456	0.000000051626	DIIS Size: 7
+CC Iteration:  14	 -0.257874556474	0.000000000495	0.000000019026	DIIS Size: 7
+CC Iteration:  15	 -0.257874556050	0.000000000424	0.000000006929	DIIS Size: 7
+CC Iteration:  16	 -0.257874555961	0.000000000089	0.000000002575	DIIS Size: 7
+CC Iteration:  17	 -0.257874556006	0.000000000045	0.000000000997	DIIS Size: 7
+CC Iteration:  18	 -0.257874556041	0.000000000035	0.000000000346	DIIS Size: 7
+CC Iteration:  19	 -0.257874556051	0.000000000010	0.000000000150	DIIS Size: 7
+CC Iteration:  20	 -0.257874556052	0.000000000001	0.000000000065	DIIS Size: 7
+Convergence reached.
+ CCSD Correlation energy: -0.2578745560517284
+
+CCSD correlation energy: -0.2578745560517284
+Iteration		 Pseudoenergy		Difference	RMS
+CC Iteration:   0	 -0.255612674057	0.002275778903 	0.023811190648	DIIS size: 0
+CC Iteration:   1	 -0.255209743847	0.000402930210 	0.005624746491	DIIS size: 1
+CC Iteration:   2	 -0.255066707324	0.000143036523 	0.001883587571	DIIS size: 2
+CC Iteration:   3	 -0.255015804452	0.000050902873 	0.000683906022	DIIS size: 3
+CC Iteration:   4	 -0.255003062379	0.000012742073 	0.000235810051	DIIS size: 4
+CC Iteration:   5	 -0.255001593890	0.000001468489 	0.000081154979	DIIS size: 5
+CC Iteration:   6	 -0.255001809865	0.000000215975 	0.000027143203	DIIS size: 6
+CC Iteration:   7	 -0.255001871439	0.000000061573 	0.000008982838	DIIS size: 7
+CC Iteration:   8	 -0.255001896786	0.000000025348 	0.000003513719	DIIS size: 7
+CC Iteration:   9	 -0.255001905761	0.000000008975 	0.000001375343	DIIS size: 7
+CC Iteration:  10	 -0.255001906681	0.000000000920 	0.000000473059	DIIS size: 7
+CC Iteration:  11	 -0.255001905263	0.000000001418 	0.000000151082	DIIS size: 7
+CC Iteration:  12	 -0.255001904211	0.000000001053 	0.000000048378	DIIS size: 7
+CC Iteration:  13	 -0.255001903841	0.000000000370 	0.000000017051	DIIS size: 7
+CC Iteration:  14	 -0.255001903754	0.000000000087 	0.000000006551	DIIS size: 7
+CC Iteration:  15	 -0.255001903728	0.000000000026 	0.000000002705	DIIS size: 7
+CC Iteration:  16	 -0.255001903721	0.000000000007 	0.000000001084	DIIS size: 7
+CC Iteration:  17	 -0.255001903719	0.000000000002 	0.000000000382	DIIS size: 7
+CC Iteration:  18	 -0.255001903719	0.000000000000 	0.000000000152	DIIS size: 7
+CC Iteration:  19	 -0.255001903719	0.000000000000 	0.000000000066	DIIS size: 7
+Convergence reached.
+ Pseudoenergy: -0.25500190371912324
+
+I ma computing polar...
+Iteration		 Pseudoresponse		RMS
+CCPert right Iteration: 0	 2.609087091237
+CCPert right Iteration:   1	 3.472005764685	0.377384228410
+CCPert right Iteration:   2	 3.872602327843	0.212039561198
+CCPert right Iteration:   3	 4.287453687499	0.052673036822
+CCPert right Iteration:   4	 4.330374577996	0.019014147443
+CCPert right Iteration:   5	 4.344876952631	0.007826761438
+CCPert right Iteration:   6	 4.345642365499	0.003312885142
+CCPert right Iteration:   7	 4.346072446329	0.001467640862
+CCPert right Iteration:   8	 4.346405731774	0.000779399297
+CCPert right Iteration:   9	 4.346364787046	0.000419600788
+CCPert right Iteration:  10	 4.346372029416	0.000143477105
+CCPert right Iteration:  11	 4.346407590185	0.000043462995
+CCPert right Iteration:  12	 4.346424421828	0.000015977973
+CCPert right Iteration:  13	 4.346430797445	0.000007221703
+CCPert right Iteration:  14	 4.346433277328	0.000003143920
+CCPert right Iteration:  15	 4.346434230862	0.000001377902
+CCPert right Iteration:  16	 4.346435072496	0.000000637320
+CCPert right Iteration:  17	 4.346435443578	0.000000240267
+CCPert right Iteration:  18	 4.346435544967	0.000000126589
+CCPert right Iteration:  19	 4.346435536921	0.000000063325
+CCPert right Iteration:  20	 4.346435532782	0.000000025427
+CCPert right Iteration:  21	 4.346435534136	0.000000010073
+CCPert right Iteration:  22	 4.346435538193	0.000000003401
+CCPert right Iteration:  23	 4.346435539343	0.000000001377
+CCPert right Iteration:  24	 4.346435539156	0.000000000555
+CCPert right Iteration:  25	 4.346435538982	0.000000000205
+CCPert right Iteration:  26	 4.346435538885	0.000000000061
+right-hand convergence reached.
+ Pseudoresponse: 4.346435538885159
+
+Iteration		 Pseudoresponse		RMS
+CCPert left Iteration: 0	 5.265047174153
+CCPert left Iteration:   1	 6.139474611567	0.634775218630
+CCPert left Iteration:   2	 6.547436736012	0.242219856503
+CCPert left Iteration:   3	 6.723935894412	0.089991304475
+CCPert left Iteration:   4	 6.803114882148	0.019239204054
+CCPert left Iteration:   5	 6.809211654944	0.006971129642
+CCPert left Iteration:   6	 6.809521141324	0.002493510017
+CCPert left Iteration:   7	 6.809859167632	0.000876668518
+CCPert left Iteration:   8	 6.809933647205	0.000291150306
+CCPert left Iteration:   9	 6.809939082892	0.000102410563
+CCPert left Iteration:  10	 6.809942135878	0.000027787293
+CCPert left Iteration:  11	 6.809938580525	0.000006310459
+CCPert left Iteration:  12	 6.809939461955	0.000001863044
+CCPert left Iteration:  13	 6.809939652877	0.000000627839
+CCPert left Iteration:  14	 6.809939859068	0.000000154774
+CCPert left Iteration:  15	 6.809939887036	0.000000049160
+CCPert left Iteration:  16	 6.809939887147	0.000000017297
+CCPert left Iteration:  17	 6.809939885183	0.000000007508
+CCPert left Iteration:  18	 6.809939884187	0.000000003088
+CCPert left Iteration:  19	 6.809939883762	0.000000000943
+CCPert left Iteration:  20	 6.809939883763	0.000000000318
+CCPert left Iteration:  21	 6.809939883764	0.000000000105
+CCPert left Iteration:  22	 6.809939883766	0.000000000038
+left-hand convergence reached.
+ Pseudoresponse: 6.809939883765871
+
+Iteration		 Pseudoresponse		RMS
+CCPert right Iteration: 0	 8.415093709164
+CCPert right Iteration:   1	 11.515547800858	0.790154293363
+CCPert right Iteration:   2	 13.197208490023	0.446334867039
+CCPert right Iteration:   3	 15.080687927696	0.095632212781
+CCPert right Iteration:   4	 15.189155667721	0.052157886273
+CCPert right Iteration:   5	 15.282309619224	0.016188499126
+CCPert right Iteration:   6	 15.287936333681	0.006589004263
+CCPert right Iteration:   7	 15.288633545221	0.003959826874
+CCPert right Iteration:   8	 15.289580067667	0.001723245527
+CCPert right Iteration:   9	 15.289520751554	0.000713730460
+CCPert right Iteration:  10	 15.289450941826	0.000232365135
+CCPert right Iteration:  11	 15.289523680113	0.000090297010
+CCPert right Iteration:  12	 15.289574869561	0.000031064127
+CCPert right Iteration:  13	 15.289591556856	0.000011383274
+CCPert right Iteration:  14	 15.289594123520	0.000005104336
+CCPert right Iteration:  15	 15.289595488177	0.000002054847
+CCPert right Iteration:  16	 15.289596564108	0.000000894557
+CCPert right Iteration:  17	 15.289597552884	0.000000486262
+CCPert right Iteration:  18	 15.289598037303	0.000000310901
+CCPert right Iteration:  19	 15.289598354778	0.000000133459
+CCPert right Iteration:  20	 15.289598311465	0.000000064949
+CCPert right Iteration:  21	 15.289598256836	0.000000021109
+CCPert right Iteration:  22	 15.289598234547	0.000000007912
+CCPert right Iteration:  23	 15.289598233768	0.000000003595
+CCPert right Iteration:  24	 15.289598234261	0.000000001416
+CCPert right Iteration:  25	 15.289598235753	0.000000000473
+CCPert right Iteration:  26	 15.289598236264	0.000000000190
+CCPert right Iteration:  27	 15.289598236518	0.000000000096
+right-hand convergence reached.
+ Pseudoresponse: 15.289598236518385
+
+Iteration		 Pseudoresponse		RMS
+CCPert left Iteration: 0	 16.971513498771
+CCPert left Iteration:   1	 18.331504916558	1.445538278487
+CCPert left Iteration:   2	 20.090687811276	0.512812759718
+CCPert left Iteration:   3	 20.520414474877	0.228141173172
+CCPert left Iteration:   4	 21.036723574557	0.037060770579
+CCPert left Iteration:   5	 21.067439125176	0.013460417387
+CCPert left Iteration:   6	 21.072642420305	0.002814295007
+CCPert left Iteration:   7	 21.072598662494	0.000915932263
+CCPert left Iteration:   8	 21.072593572098	0.000351557677
+CCPert left Iteration:   9	 21.072614389334	0.000151051275
+CCPert left Iteration:  10	 21.072619248608	0.000044035254
+CCPert left Iteration:  11	 21.072615901842	0.000012331531
+CCPert left Iteration:  12	 21.072618916182	0.000003408785
+CCPert left Iteration:  13	 21.072620958892	0.000001011934
+CCPert left Iteration:  14	 21.072622019288	0.000000350580
+CCPert left Iteration:  15	 21.072622307934	0.000000117117
+CCPert left Iteration:  16	 21.072622399827	0.000000034100
+CCPert left Iteration:  17	 21.072622410438	0.000000010937
+CCPert left Iteration:  18	 21.072622413466	0.000000003522
+CCPert left Iteration:  19	 21.072622414305	0.000000000992
+CCPert left Iteration:  20	 21.072622414667	0.000000000305
+CCPert left Iteration:  21	 21.072622414790	0.000000000097
+left-hand convergence reached.
+ Pseudoresponse: 21.07262241478957
+
+Iteration		 Pseudoresponse		RMS
+CCPert right Iteration: 0	 5.626312714226
+CCPert right Iteration:   1	 7.589436791899	0.605457017968
+CCPert right Iteration:   2	 8.557056277548	0.326610752628
+CCPert right Iteration:   3	 9.551584833800	0.066666785314
+CCPert right Iteration:   4	 9.607743822893	0.030654247609
+CCPert right Iteration:   5	 9.641573867528	0.011610846748
+CCPert right Iteration:   6	 9.642751188870	0.004692735510
+CCPert right Iteration:   7	 9.643017465535	0.002139296232
+CCPert right Iteration:   8	 9.643590758597	0.000817541734
+CCPert right Iteration:   9	 9.643489645595	0.000370411451
+CCPert right Iteration:  10	 9.643439583640	0.000119194317
+CCPert right Iteration:  11	 9.643467349420	0.000048702959
+CCPert right Iteration:  12	 9.643487823707	0.000021166249
+CCPert right Iteration:  13	 9.643494350105	0.000010101802
+CCPert right Iteration:  14	 9.643495094374	0.000004781531
+CCPert right Iteration:  15	 9.643494810515	0.000002015492
+CCPert right Iteration:  16	 9.643495096358	0.000000931053
+CCPert right Iteration:  17	 9.643495576205	0.000000432585
+CCPert right Iteration:  18	 9.643495797083	0.000000224248
+CCPert right Iteration:  19	 9.643495861323	0.000000102588
+CCPert right Iteration:  20	 9.643495852796	0.000000051201
+CCPert right Iteration:  21	 9.643495846142	0.000000020637
+CCPert right Iteration:  22	 9.643495847005	0.000000009235
+CCPert right Iteration:  23	 9.643495850370	0.000000004530
+CCPert right Iteration:  24	 9.643495851582	0.000000002166
+CCPert right Iteration:  25	 9.643495851973	0.000000000888
+CCPert right Iteration:  26	 9.643495851911	0.000000000441
+CCPert right Iteration:  27	 9.643495851916	0.000000000160
+CCPert right Iteration:  28	 9.643495851918	0.000000000068
+right-hand convergence reached.
+ Pseudoresponse: 9.643495851918116
+
+Iteration		 Pseudoresponse		RMS
+CCPert left Iteration: 0	 11.346049077039
+CCPert left Iteration:   1	 12.559851380829	0.978275105687
+CCPert left Iteration:   2	 13.454162221793	0.336705037205
+CCPert left Iteration:   3	 13.760409077610	0.138614630305
+CCPert left Iteration:   4	 13.964779423362	0.023659626044
+CCPert left Iteration:   5	 13.974215191432	0.008988298486
+CCPert left Iteration:   6	 13.975267077415	0.002384072958
+CCPert left Iteration:   7	 13.975421394460	0.000864854733
+CCPert left Iteration:   8	 13.975377439890	0.000216547759
+CCPert left Iteration:   9	 13.975382434823	0.000072494309
+CCPert left Iteration:  10	 13.975376098702	0.000022538445
+CCPert left Iteration:  11	 13.975372943198	0.000007932103
+CCPert left Iteration:  12	 13.975372882963	0.000002477603
+CCPert left Iteration:  13	 13.975373101253	0.000000766809
+CCPert left Iteration:  14	 13.975373323480	0.000000245514
+CCPert left Iteration:  15	 13.975373347690	0.000000083387
+CCPert left Iteration:  16	 13.975373343904	0.000000029011
+CCPert left Iteration:  17	 13.975373337388	0.000000010058
+CCPert left Iteration:  18	 13.975373335385	0.000000003913
+CCPert left Iteration:  19	 13.975373335216	0.000000001298
+CCPert left Iteration:  20	 13.975373335439	0.000000000531
+CCPert left Iteration:  21	 13.975373335519	0.000000000197
+CCPert left Iteration:  22	 13.975373335542	0.000000000070
+left-hand convergence reached.
+ Pseudoresponse: 13.975373335542125
+
+Polarizability tensor:
+X X: 3.7417344925680136
+
+X Y: -0.9758083830093047
+
+X Z: 1.4438888874036565e-12
+
+Y X: -0.9758083830093047
+
+Y Y: 12.515303230577816
+
+Y Z: -5.385059238757797e-13
+
+Z X: 1.4438888874036565e-12
+
+Z Y: -5.385059238757797e-13
+
+Z Z: 8.109719555659039
+
+I am here..
+Total time: 7.152557373046875e-07
+List of optical rotations (LG, 589 nm): {'0': 8.12225242626829}
+
+  Memory set to   1.863 GiB by Python driver.
+SCF energy: -150.69241330654566
+
+Nuclear repulsion energy: 38.253968531037714
+
+I am computing liniar response function
+<class 'psi4.core.RHF'>
+Checking dimensions of orbitals: no_occ: 9	 no_fz: 0	 no_active: 9	 no_vir: 13	 total: 22
+Localize occupied orbital switch on. Localizing occupied orbitals.
+Checking dimensions of localized active occupied:
+Shape of local array: (22, 9)
+Shape of C: (22, 22)
+
+Shape of new MO coeff matrix: (22, 22)
+Checking size of ERI tensor: (22, 22, 22, 22)
+Checking size of ERI_nfz tensor: (22, 22, 22, 22)
+Checking size of Fock matrix: (22, 22)
+MO basis F_occ:
+[[ -0.558618004515   0.002553944353  -0.062448136827   0.005004941147   0.001266666127  -0.000537572376  -0.058177954835   0.011369857895   0.037115324485]
+ [  0.002553944353 -20.444041882429  -0.67304744971   -0.057607627811  -0.413839657137   0.028936733651   0.000537572016  -0.078599317213  -1.741436232198]
+ [ -0.062448136827  -0.67304744971   -0.953593878904  -0.055820865131  -0.136637136243  -0.0576076187    -0.005004942524  -0.011418299416  -0.373095957769]
+ [  0.005004941147  -0.057607627811  -0.055820865131  -0.953593881319  -0.136637137397  -0.673047469482   0.06244813681   -0.373095963135  -0.01141830017 ]
+ [  0.001266666127  -0.413839657137  -0.136637136243  -0.136637137397  -0.86908731847   -0.413839657802  -0.001266667562  -0.27702603342   -0.277026031161]
+ [ -0.000537572376   0.028936733651  -0.0576076187    -0.673047469482  -0.413839657802 -20.444041864433  -0.002553944494  -1.741436323515  -0.078599306352]
+ [ -0.058177954835   0.000537572016  -0.005004942524   0.06244813681   -0.001266667562  -0.002553944494  -0.558618004687  -0.037115324509  -0.011369860571]
+ [  0.011369857895  -0.078599317213  -0.011418299416  -0.373095963135  -0.27702603342   -1.741436323515  -0.037115324509  -1.170998802006  -0.072041517866]
+ [  0.037115324485  -1.741436232198  -0.373095957769  -0.01141830017   -0.277026031161  -0.078599306352  -0.011369860571  -0.072041517866  -1.170998786186]]
+
+MP2 energy(without truncation): -0.2333227186496179
+Local switch on. Initializing PNOs.
+Strong pair list:
+[[ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]
+ [ True  True  True  True  True  True  True  True  True]]
+Perturbed density on. Preparing perturbed density PNOs.
+Pert switch on. Initializing pert PNOs
+No. of strong pairs: 81
+Survivors[0]:
+[ True  True  True  True  True  True  True  True  True  True  True  True  True]
+Tcut_PNO : 0
+Total no. of PNOs: 1053.0
+T2 ratio: 1.0
+Occupation numbers [0]:
+ [0.000000196097 0.000000291364 0.000000538197 0.000000896674 0.00000333719  0.000003765284 0.000008375136 0.00001551934  0.000019708394 0.000077949337 0.000106810463 0.000186632134 0.000418965133]
+Numbers of surviving PNOs:
+[13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13.
+ 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13. 13.]
+Average number of PNOs:
+13.0
+Shape of Q_list[0]: (13, 13)
+Shape of Q_list[1]: (13, 13)
+Shape of Q_list[2]: (13, 13)
+Shape of Q_list[3]: (13, 13)
+Shape of Q_list[4]: (13, 13)
+Shape of Q_list[5]: (13, 13)
+Shape of Q_list[6]: (13, 13)
+Shape of Q_list[7]: (13, 13)
+Shape of Q_list[8]: (13, 13)
+Shape of Q_list[9]: (13, 13)
+Shape of Q_list[10]: (13, 13)
+Shape of Q_list[11]: (13, 13)
+Shape of Q_list[12]: (13, 13)
+Shape of Q_list[13]: (13, 13)
+Shape of Q_list[14]: (13, 13)
+Shape of Q_list[15]: (13, 13)
+Shape of Q_list[16]: (13, 13)
+Shape of Q_list[17]: (13, 13)
+Shape of Q_list[18]: (13, 13)
+Shape of Q_list[19]: (13, 13)
+Shape of Q_list[20]: (13, 13)
+Shape of Q_list[21]: (13, 13)
+Shape of Q_list[22]: (13, 13)
+Shape of Q_list[23]: (13, 13)
+Shape of Q_list[24]: (13, 13)
+Shape of Q_list[25]: (13, 13)
+Shape of Q_list[26]: (13, 13)
+Shape of Q_list[27]: (13, 13)
+Shape of Q_list[28]: (13, 13)
+Shape of Q_list[29]: (13, 13)
+Shape of Q_list[30]: (13, 13)
+Shape of Q_list[31]: (13, 13)
+Shape of Q_list[32]: (13, 13)
+Shape of Q_list[33]: (13, 13)
+Shape of Q_list[34]: (13, 13)
+Shape of Q_list[35]: (13, 13)
+Shape of Q_list[36]: (13, 13)
+Shape of Q_list[37]: (13, 13)
+Shape of Q_list[38]: (13, 13)
+Shape of Q_list[39]: (13, 13)
+Shape of Q_list[40]: (13, 13)
+Shape of Q_list[41]: (13, 13)
+Shape of Q_list[42]: (13, 13)
+Shape of Q_list[43]: (13, 13)
+Shape of Q_list[44]: (13, 13)
+Shape of Q_list[45]: (13, 13)
+Shape of Q_list[46]: (13, 13)
+Shape of Q_list[47]: (13, 13)
+Shape of Q_list[48]: (13, 13)
+Shape of Q_list[49]: (13, 13)
+Shape of Q_list[50]: (13, 13)
+Shape of Q_list[51]: (13, 13)
+Shape of Q_list[52]: (13, 13)
+Shape of Q_list[53]: (13, 13)
+Shape of Q_list[54]: (13, 13)
+Shape of Q_list[55]: (13, 13)
+Shape of Q_list[56]: (13, 13)
+Shape of Q_list[57]: (13, 13)
+Shape of Q_list[58]: (13, 13)
+Shape of Q_list[59]: (13, 13)
+Shape of Q_list[60]: (13, 13)
+Shape of Q_list[61]: (13, 13)
+Shape of Q_list[62]: (13, 13)
+Shape of Q_list[63]: (13, 13)
+Shape of Q_list[64]: (13, 13)
+Shape of Q_list[65]: (13, 13)
+Shape of Q_list[66]: (13, 13)
+Shape of Q_list[67]: (13, 13)
+Shape of Q_list[68]: (13, 13)
+Shape of Q_list[69]: (13, 13)
+Shape of Q_list[70]: (13, 13)
+Shape of Q_list[71]: (13, 13)
+Shape of Q_list[72]: (13, 13)
+Shape of Q_list[73]: (13, 13)
+Shape of Q_list[74]: (13, 13)
+Shape of Q_list[75]: (13, 13)
+Shape of Q_list[76]: (13, 13)
+Shape of Q_list[77]: (13, 13)
+Shape of Q_list[78]: (13, 13)
+Shape of Q_list[79]: (13, 13)
+Shape of Q_list[80]: (13, 13)
+Total: 0.0
+PNO correction:
+0.0
+MP2 energy here: -0.23332271864954696
+Iteration		 Correlation energy	Difference	RMS
+MP2			 -0.23332271864954696
+CC Iteration:   0	 -0.241702452640	0.008379733991	0.064852385758	DIIS Size: 0
+CC Iteration:   1	 -0.253184820554	0.011482367914	0.030624514120	DIIS Size: 1
+CC Iteration:   2	 -0.254654839591	0.001470019037	0.015963638610	DIIS Size: 2
+CC Iteration:   3	 -0.257337737658	0.002682898067	0.005799616697	DIIS Size: 3
+CC Iteration:   4	 -0.257704137425	0.000366399767	0.003331021495	DIIS Size: 4
+CC Iteration:   5	 -0.257841042851	0.000136905426	0.001654551636	DIIS Size: 5
+CC Iteration:   6	 -0.257868417947	0.000027375096	0.000861204508	DIIS Size: 6
+CC Iteration:   7	 -0.257868634813	0.000000216866	0.000334568030	DIIS Size: 7
+CC Iteration:   8	 -0.257870631424	0.000001996611	0.000169212540	DIIS Size: 7
+CC Iteration:   9	 -0.257871940399	0.000001308975	0.000086264765	DIIS Size: 7
+CC Iteration:  10	 -0.257875405314	0.000003464915	0.000036716812	DIIS Size: 7
+CC Iteration:  11	 -0.257874927779	0.000000477535	0.000019077912	DIIS Size: 7
+CC Iteration:  12	 -0.257875042489	0.000000114710	0.000008395992	DIIS Size: 7
+CC Iteration:  13	 -0.257874793604	0.000000248885	0.000003776594	DIIS Size: 7
+CC Iteration:  14	 -0.257874684094	0.000000109510	0.000002002445	DIIS Size: 7
+CC Iteration:  15	 -0.257874614116	0.000000069978	0.000001041754	DIIS Size: 7
+CC Iteration:  16	 -0.257874580038	0.000000034078	0.000000558701	DIIS Size: 7
+CC Iteration:  17	 -0.257874568520	0.000000011518	0.000000323306	DIIS Size: 7
+CC Iteration:  18	 -0.257874561948	0.000000006572	0.000000186837	DIIS Size: 7
+CC Iteration:  19	 -0.257874559533	0.000000002415	0.000000100674	DIIS Size: 7
+CC Iteration:  20	 -0.257874557458	0.000000002075	0.000000054139	DIIS Size: 7
+CC Iteration:  21	 -0.257874556804	0.000000000654	0.000000026345	DIIS Size: 7
+CC Iteration:  22	 -0.257874556298	0.000000000506	0.000000014807	DIIS Size: 7
+CC Iteration:  23	 -0.257874556226	0.000000000072	0.000000007751	DIIS Size: 7
+CC Iteration:  24	 -0.257874556120	0.000000000106	0.000000003864	DIIS Size: 7
+CC Iteration:  25	 -0.257874556080	0.000000000040	0.000000001869	DIIS Size: 7
+CC Iteration:  26	 -0.257874556068	0.000000000013	0.000000000948	DIIS Size: 7
+CC Iteration:  27	 -0.257874556058	0.000000000010	0.000000000462	DIIS Size: 7
+CC Iteration:  28	 -0.257874556054	0.000000000004	0.000000000224	DIIS Size: 7
+CC Iteration:  29	 -0.257874556052	0.000000000002	0.000000000111	DIIS Size: 7
+CC Iteration:  30	 -0.257874556052	0.000000000000	0.000000000058	DIIS Size: 7
+Convergence reached.
+ CCSD Correlation energy: -0.25787455605245346
+
+CCSD correlation energy: -0.25787455605245346
+Iteration		 Pseudoenergy		Difference	RMS
+CC Iteration:   0	 -0.255783615361	0.002104837600 	0.021769031789	DIIS size: 0
+CC Iteration:   1	 -0.255357983902	0.000425631459 	0.006180860874	DIIS size: 1
+CC Iteration:   2	 -0.255138862712	0.000219121190 	0.002996366625	DIIS size: 2
+CC Iteration:   3	 -0.255062474750	0.000076387962 	0.001532603104	DIIS size: 3
+CC Iteration:   4	 -0.255023117041	0.000039357709 	0.000781099634	DIIS size: 4
+CC Iteration:   5	 -0.255005156655	0.000017960386 	0.000388227678	DIIS size: 5
+CC Iteration:   6	 -0.255002278516	0.000002878139 	0.000178257786	DIIS size: 6
+CC Iteration:   7	 -0.255001429109	0.000000849407 	0.000081422706	DIIS size: 7
+CC Iteration:   8	 -0.255001961482	0.000000532373 	0.000037135570	DIIS size: 7
+CC Iteration:   9	 -0.255001960100	0.000000001382 	0.000019169938	DIIS size: 7
+CC Iteration:  10	 -0.255001919936	0.000000040164 	0.000009042921	DIIS size: 7
+CC Iteration:  11	 -0.255001889736	0.000000030200 	0.000003615759	DIIS size: 7
+CC Iteration:  12	 -0.255001875349	0.000000014387 	0.000001623603	DIIS size: 7
+CC Iteration:  13	 -0.255001881866	0.000000006517 	0.000000815877	DIIS size: 7
+CC Iteration:  14	 -0.255001891974	0.000000010108 	0.000000444182	DIIS size: 7
+CC Iteration:  15	 -0.255001897680	0.000000005706 	0.000000253117	DIIS size: 7
+CC Iteration:  16	 -0.255001901146	0.000000003466 	0.000000145918	DIIS size: 7
+CC Iteration:  17	 -0.255001903065	0.000000001919 	0.000000085134	DIIS size: 7
+CC Iteration:  18	 -0.255001903347	0.000000000282 	0.000000045969	DIIS size: 7
+CC Iteration:  19	 -0.255001903658	0.000000000310 	0.000000025407	DIIS size: 7
+CC Iteration:  20	 -0.255001903645	0.000000000013 	0.000000014355	DIIS size: 7
+CC Iteration:  21	 -0.255001903658	0.000000000013 	0.000000007558	DIIS size: 7
+CC Iteration:  22	 -0.255001903707	0.000000000049 	0.000000003756	DIIS size: 7
+CC Iteration:  23	 -0.255001903721	0.000000000014 	0.000000001870	DIIS size: 7
+CC Iteration:  24	 -0.255001903723	0.000000000002 	0.000000000998	DIIS size: 7
+CC Iteration:  25	 -0.255001903725	0.000000000002 	0.000000000537	DIIS size: 7
+CC Iteration:  26	 -0.255001903723	0.000000000002 	0.000000000287	DIIS size: 7
+CC Iteration:  27	 -0.255001903721	0.000000000003 	0.000000000177	DIIS size: 7
+CC Iteration:  28	 -0.255001903720	0.000000000000 	0.000000000107	DIIS size: 7
+CC Iteration:  29	 -0.255001903719	0.000000000001 	0.000000000059	DIIS size: 7
+Convergence reached.
+ Pseudoenergy: -0.2550019037192359
+
+I ma computing polar...
+Iteration		 Pseudoresponse		RMS
+CCPert right Iteration: 0	 2.324860024024
+CCPert right Iteration:   1	 3.161168173079	0.343579141244
+CCPert right Iteration:   2	 3.596355465355	0.213786349067
+CCPert right Iteration:   3	 4.124117045754	0.085712235468
+CCPert right Iteration:   4	 4.246419333203	0.047502801005
+CCPert right Iteration:   5	 4.323084214554	0.019815571061
+CCPert right Iteration:   6	 4.339179406044	0.010632807591
+CCPert right Iteration:   7	 4.343727315628	0.004707385873
+CCPert right Iteration:   8	 4.345087949401	0.002514160990
+CCPert right Iteration:   9	 4.346014241916	0.001295893882
+CCPert right Iteration:  10	 4.346497413143	0.000517278387
+CCPert right Iteration:  11	 4.346560155153	0.000297852559
+CCPert right Iteration:  12	 4.346618187840	0.000151819339
+CCPert right Iteration:  13	 4.346590521382	0.000086220446
+CCPert right Iteration:  14	 4.346545579755	0.000051200571
+CCPert right Iteration:  15	 4.346505722493	0.000030923275
+CCPert right Iteration:  16	 4.346468917906	0.000016724878
+CCPert right Iteration:  17	 4.346450745955	0.000009330479
+CCPert right Iteration:  18	 4.346442533506	0.000005555628
+CCPert right Iteration:  19	 4.346437469460	0.000002856345
+CCPert right Iteration:  20	 4.346435902903	0.000001452782
+CCPert right Iteration:  21	 4.346435442720	0.000000831284
+CCPert right Iteration:  22	 4.346435355832	0.000000480576
+CCPert right Iteration:  23	 4.346435313292	0.000000300834
+CCPert right Iteration:  24	 4.346435328554	0.000000168348
+CCPert right Iteration:  25	 4.346435362784	0.000000105960
+CCPert right Iteration:  26	 4.346435401767	0.000000064626
+CCPert right Iteration:  27	 4.346435449029	0.000000037678
+CCPert right Iteration:  28	 4.346435486032	0.000000023720
+CCPert right Iteration:  29	 4.346435519954	0.000000011782
+CCPert right Iteration:  30	 4.346435532568	0.000000006680
+CCPert right Iteration:  31	 4.346435537450	0.000000003838
+CCPert right Iteration:  32	 4.346435539366	0.000000002021
+CCPert right Iteration:  33	 4.346435539702	0.000000001240
+CCPert right Iteration:  34	 4.346435539709	0.000000000790
+CCPert right Iteration:  35	 4.346435539762	0.000000000503
+CCPert right Iteration:  36	 4.346435539782	0.000000000299
+CCPert right Iteration:  37	 4.346435539723	0.000000000177
+CCPert right Iteration:  38	 4.346435539619	0.000000000112
+CCPert right Iteration:  39	 4.346435539509	0.000000000064
+right-hand convergence reached.
+ Pseudoresponse: 4.346435539508932
+
+Iteration		 Pseudoresponse		RMS
+CCPert left Iteration: 0	 4.692376474761
+CCPert left Iteration:   1	 5.686809571715	0.623185020623
+CCPert left Iteration:   2	 6.220878251886	0.304244397043
+CCPert left Iteration:   3	 6.547385312737	0.151142924462
+CCPert left Iteration:   4	 6.739870157529	0.063596472680
+CCPert left Iteration:   5	 6.788959705997	0.029689340936
+CCPert left Iteration:   6	 6.804853836583	0.009923897089
+CCPert left Iteration:   7	 6.808602426440	0.004200947656
+CCPert left Iteration:   8	 6.809736717002	0.001710545232
+CCPert left Iteration:   9	 6.809881687333	0.000756689716
+CCPert left Iteration:  10	 6.809952064749	0.000351763253
+CCPert left Iteration:  11	 6.809978834253	0.000138867535
+CCPert left Iteration:  12	 6.809957462709	0.000064914271
+CCPert left Iteration:  13	 6.809954551612	0.000030157728
+CCPert left Iteration:  14	 6.809947404093	0.000012599382
+CCPert left Iteration:  15	 6.809943969504	0.000005933330
+CCPert left Iteration:  16	 6.809942201012	0.000002914369
+CCPert left Iteration:  17	 6.809941080429	0.000001356442
+CCPert left Iteration:  18	 6.809940415813	0.000000630120
+CCPert left Iteration:  19	 6.809940126922	0.000000293085
+CCPert left Iteration:  20	 6.809939973022	0.000000139445
+CCPert left Iteration:  21	 6.809939912955	0.000000069173
+CCPert left Iteration:  22	 6.809939894028	0.000000032708
+CCPert left Iteration:  23	 6.809939886526	0.000000016774
+CCPert left Iteration:  24	 6.809939884734	0.000000008700
+CCPert left Iteration:  25	 6.809939884201	0.000000004521
+CCPert left Iteration:  26	 6.809939884164	0.000000002233
+CCPert left Iteration:  27	 6.809939884256	0.000000001093
+CCPert left Iteration:  28	 6.809939884240	0.000000000518
+CCPert left Iteration:  29	 6.809939884216	0.000000000279
+CCPert left Iteration:  30	 6.809939884186	0.000000000145
+CCPert left Iteration:  31	 6.809939884160	0.000000000074
+left-hand convergence reached.
+ Pseudoresponse: 6.809939884159766
+
+Iteration		 Pseudoresponse		RMS
+CCPert right Iteration: 0	 6.548594838130
+CCPert right Iteration:   1	 9.738623325163	0.727780307843
+CCPert right Iteration:   2	 11.632388914583	0.461522160569
+CCPert right Iteration:   3	 14.419207639853	0.153203694244
+CCPert right Iteration:   4	 14.893100817097	0.091687128975
+CCPert right Iteration:   5	 15.203669886158	0.042569257302
+CCPert right Iteration:   6	 15.256373111372	0.021953938231
+CCPert right Iteration:   7	 15.271492954744	0.013154817653
+CCPert right Iteration:   8	 15.285039196010	0.008075262504
+CCPert right Iteration:   9	 15.288637198179	0.004198803821
+CCPert right Iteration:  10	 15.292371401737	0.002021765776
+CCPert right Iteration:  11	 15.291826050970	0.001027489834
+CCPert right Iteration:  12	 15.291472093071	0.000559329755
+CCPert right Iteration:  13	 15.290831036083	0.000346738645
+CCPert right Iteration:  14	 15.290274936124	0.000197985957
+CCPert right Iteration:  15	 15.289974188413	0.000116917227
+CCPert right Iteration:  16	 15.289811571471	0.000068136801
+CCPert right Iteration:  17	 15.289727573409	0.000044241331
+CCPert right Iteration:  18	 15.289682307581	0.000030588198
+CCPert right Iteration:  19	 15.289639944669	0.000019315241
+CCPert right Iteration:  20	 15.289617267021	0.000012962168
+CCPert right Iteration:  21	 15.289599421956	0.000007332268
+CCPert right Iteration:  22	 15.289593436517	0.000004169179
+CCPert right Iteration:  23	 15.289593202313	0.000002649445
+CCPert right Iteration:  24	 15.289594678832	0.000001565014
+CCPert right Iteration:  25	 15.289595775066	0.000001029416
+CCPert right Iteration:  26	 15.289596719181	0.000000611731
+CCPert right Iteration:  27	 15.289597219586	0.000000363546
+CCPert right Iteration:  28	 15.289597479438	0.000000242840
+CCPert right Iteration:  29	 15.289597697210	0.000000154534
+CCPert right Iteration:  30	 15.289597877221	0.000000107949
+CCPert right Iteration:  31	 15.289598059488	0.000000071261
+CCPert right Iteration:  32	 15.289598187946	0.000000043132
+CCPert right Iteration:  33	 15.289598240303	0.000000026730
+CCPert right Iteration:  34	 15.289598256216	0.000000016427
+CCPert right Iteration:  35	 15.289598254235	0.000000010959
+CCPert right Iteration:  36	 15.289598248777	0.000000007066
+CCPert right Iteration:  37	 15.289598245026	0.000000004461
+CCPert right Iteration:  38	 15.289598243277	0.000000002701
+CCPert right Iteration:  39	 15.289598242430	0.000000001646
+CCPert right Iteration:  40	 15.289598241449	0.000000001093
+CCPert right Iteration:  41	 15.289598240207	0.000000000700
+CCPert right Iteration:  42	 15.289598239194	0.000000000473
+CCPert right Iteration:  43	 15.289598238331	0.000000000304
+CCPert right Iteration:  44	 15.289598237831	0.000000000187
+CCPert right Iteration:  45	 15.289598237670	0.000000000126
+CCPert right Iteration:  46	 15.289598237623	0.000000000082
+right-hand convergence reached.
+ Pseudoresponse: 15.289598237622975
+
+Iteration		 Pseudoresponse		RMS
+CCPert left Iteration: 0	 13.227661420000
+CCPert left Iteration:   1	 16.319686356512	1.254901926744
+CCPert left Iteration:   2	 18.407359806040	0.599669528202
+CCPert left Iteration:   3	 19.567361745083	0.355475326433
+CCPert left Iteration:   4	 20.683898424767	0.144340796999
+CCPert left Iteration:   5	 20.945920460750	0.068511733268
+CCPert left Iteration:   6	 21.031979860424	0.028695204978
+CCPert left Iteration:   7	 21.065892585979	0.011133048356
+CCPert left Iteration:   8	 21.072860402537	0.004962355155
+CCPert left Iteration:   9	 21.072054753972	0.001971104385
+CCPert left Iteration:  10	 21.072394244121	0.000819242027
+CCPert left Iteration:  11	 21.072528925019	0.000351942531
+CCPert left Iteration:  12	 21.072574199303	0.000143520808
+CCPert left Iteration:  13	 21.072645905605	0.000064353608
+CCPert left Iteration:  14	 21.072645370450	0.000028627098
+CCPert left Iteration:  15	 21.072642298044	0.000013696338
+CCPert left Iteration:  16	 21.072636089236	0.000007352787
+CCPert left Iteration:  17	 21.072629145829	0.000003452405
+CCPert left Iteration:  18	 21.072625141411	0.000001599190
+CCPert left Iteration:  19	 21.072623504242	0.000000748902
+CCPert left Iteration:  20	 21.072622866222	0.000000360666
+CCPert left Iteration:  21	 21.072622567303	0.000000163820
+CCPert left Iteration:  22	 21.072622505756	0.000000077600
+CCPert left Iteration:  23	 21.072622464557	0.000000035698
+CCPert left Iteration:  24	 21.072622443083	0.000000016734
+CCPert left Iteration:  25	 21.072622431847	0.000000007723
+CCPert left Iteration:  26	 21.072622423388	0.000000003516
+CCPert left Iteration:  27	 21.072622419403	0.000000001847
+CCPert left Iteration:  28	 21.072622417169	0.000000000925
+CCPert left Iteration:  29	 21.072622416224	0.000000000517
+CCPert left Iteration:  30	 21.072622415610	0.000000000263
+CCPert left Iteration:  31	 21.072622415424	0.000000000128
+CCPert left Iteration:  32	 21.072622415350	0.000000000061
+left-hand convergence reached.
+ Pseudoresponse: 21.072622415349613
+
+Iteration		 Pseudoresponse		RMS
+CCPert right Iteration: 0	 4.467488077545
+CCPert right Iteration:   1	 6.463497104292	0.550492230528
+CCPert right Iteration:   2	 7.588880251253	0.346078601257
+CCPert right Iteration:   3	 9.114529438983	0.124259227440
+CCPert right Iteration:   4	 9.408128332631	0.071691261755
+CCPert right Iteration:   5	 9.594759460404	0.033508404427
+CCPert right Iteration:   6	 9.624296226842	0.020193839056
+CCPert right Iteration:   7	 9.635187081997	0.010707113781
+CCPert right Iteration:   8	 9.640896763732	0.006006668394
+CCPert right Iteration:   9	 9.642278186478	0.003074783756
+CCPert right Iteration:  10	 9.644812055619	0.001103874902
+CCPert right Iteration:  11	 9.644657909199	0.000514364679
+CCPert right Iteration:  12	 9.644502396115	0.000267137562
+CCPert right Iteration:  13	 9.644161150928	0.000164678024
+CCPert right Iteration:  14	 9.643878147898	0.000107459094
+CCPert right Iteration:  15	 9.643685670442	0.000065340207
+CCPert right Iteration:  16	 9.643554729028	0.000035183822
+CCPert right Iteration:  17	 9.643518122175	0.000022023728
+CCPert right Iteration:  18	 9.643509940824	0.000015070678
+CCPert right Iteration:  19	 9.643503019947	0.000008972959
+CCPert right Iteration:  20	 9.643499893094	0.000004861098
+CCPert right Iteration:  21	 9.643496196891	0.000002578713
+CCPert right Iteration:  22	 9.643495109135	0.000001484899
+CCPert right Iteration:  23	 9.643494726650	0.000001005121
+CCPert right Iteration:  24	 9.643494894651	0.000000646791
+CCPert right Iteration:  25	 9.643495220128	0.000000429543
+CCPert right Iteration:  26	 9.643495508769	0.000000251180
+CCPert right Iteration:  27	 9.643495693318	0.000000135313
+CCPert right Iteration:  28	 9.643495760751	0.000000089058
+CCPert right Iteration:  29	 9.643495790394	0.000000056996
+CCPert right Iteration:  30	 9.643495809091	0.000000036924
+CCPert right Iteration:  31	 9.643495821518	0.000000022673
+CCPert right Iteration:  32	 9.643495833302	0.000000013059
+CCPert right Iteration:  33	 9.643495841211	0.000000008565
+CCPert right Iteration:  34	 9.643495846189	0.000000005846
+CCPert right Iteration:  35	 9.643495850079	0.000000003962
+CCPert right Iteration:  36	 9.643495852605	0.000000002555
+CCPert right Iteration:  37	 9.643495853835	0.000000001465
+CCPert right Iteration:  38	 9.643495853860	0.000000000880
+CCPert right Iteration:  39	 9.643495853567	0.000000000540
+CCPert right Iteration:  40	 9.643495853327	0.000000000365
+CCPert right Iteration:  41	 9.643495853114	0.000000000246
+CCPert right Iteration:  42	 9.643495852970	0.000000000157
+CCPert right Iteration:  43	 9.643495852881	0.000000000095
+right-hand convergence reached.
+ Pseudoresponse: 9.643495852881262
+
+Iteration		 Pseudoresponse		RMS
+CCPert left Iteration: 0	 9.016268416907
+CCPert left Iteration:   1	 11.093399608828	0.929603024339
+CCPert left Iteration:   2	 12.379324093551	0.470093830034
+CCPert left Iteration:   3	 13.243178680271	0.234911927767
+CCPert left Iteration:   4	 13.814686234861	0.092938342750
+CCPert left Iteration:   5	 13.927653496398	0.046289351944
+CCPert left Iteration:   6	 13.964778941256	0.017449726657
+CCPert left Iteration:   7	 13.973727621229	0.007277805529
+CCPert left Iteration:   8	 13.975859238805	0.003609529672
+CCPert left Iteration:   9	 13.975617384079	0.001451765768
+CCPert left Iteration:  10	 13.975490976394	0.000624661294
+CCPert left Iteration:  11	 13.975474204194	0.000264255477
+CCPert left Iteration:  12	 13.975388765569	0.000114827606
+CCPert left Iteration:  13	 13.975386108411	0.000061451048
+CCPert left Iteration:  14	 13.975377604995	0.000031458644
+CCPert left Iteration:  15	 13.975374340199	0.000014591758
+CCPert left Iteration:  16	 13.975374324968	0.000006163781
+CCPert left Iteration:  17	 13.975374056591	0.000002811336
+CCPert left Iteration:  18	 13.975373824832	0.000001395366
+CCPert left Iteration:  19	 13.975373622763	0.000000701734
+CCPert left Iteration:  20	 13.975373458375	0.000000351920
+CCPert left Iteration:  21	 13.975373355853	0.000000177943
+CCPert left Iteration:  22	 13.975373321244	0.000000088573
+CCPert left Iteration:  23	 13.975373314997	0.000000047710
+CCPert left Iteration:  24	 13.975373318292	0.000000025608
+CCPert left Iteration:  25	 13.975373324831	0.000000012610
+CCPert left Iteration:  26	 13.975373329837	0.000000006428
+CCPert left Iteration:  27	 13.975373333357	0.000000003389
+CCPert left Iteration:  28	 13.975373335119	0.000000001592
+CCPert left Iteration:  29	 13.975373335860	0.000000000828
+CCPert left Iteration:  30	 13.975373336075	0.000000000456
+CCPert left Iteration:  31	 13.975373336118	0.000000000238
+CCPert left Iteration:  32	 13.975373336111	0.000000000126
+CCPert left Iteration:  33	 13.975373336100	0.000000000065
+left-hand convergence reached.
+ Pseudoresponse: 13.97537333609986
+
+Polarizability tensor:
+X X: 3.74173449285782
+
+X Y: -0.9758083831763424
+
+X Z: -1.0314882410577309e-13
+
+Y X: -0.9758083831763424
+
+Y Y: 12.515303230926056
+
+Y Z: 6.094645778862237e-14
+
+Z X: -1.0314882410577309e-13
+
+Z Y: 6.094645778862237e-14
+
+Z Z: 8.109719556094829
+
+I am here..
+Pert: mu
+I am here..
+Total time: 7.152557373046875e-07
+List of optical rotations (LG, 589 nm): {'0': 8.122252426626234}
